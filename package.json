@@ -35,7 +35,7 @@
     "underscore.string": "2.3.3",
     "soupselect": "0.2.0",
     "htmlparser": "1.7.7",
-	"cofee-script": "1.9.3"
+	"coffee-script": "1.9.3"
   },
   "engines": {
     "node": "0.10.x"
