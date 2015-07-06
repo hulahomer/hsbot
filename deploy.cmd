@@ -100,7 +100,7 @@ call :SelectNodeVersion
 :: 3. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install --production --msvs_version=2010
+  call :ExecuteCmd !NPM_CMD! install --production --msvs_version=2013
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
